@@ -1,6 +1,15 @@
-## Welcome to NEMI Educational Forum
+## Welcome to NEMI Educational Forum!
 
-Welcome to the Virtual NEMI Forum! This platform provides a variety of educational and scientific resources, openly available to the NEMI community. Here you will find seminars (live and recorded), courses, workshops, lectures, and other activities at the core of the NEMI community.
+Within this platform we aim to provide to provide the infrastructure where NEMI members (including
+PhD students, and postdocs) can organize all sorts of virtual educational activities including virtual seminars, colloquia, workshops and lectures. This can range from a discussion about a preprint or a paper just accepted to a colloquium
+by an expert speaker or short lectures over some specific topic.
+
+
+
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/nemieducationalforum/nemieducationalforum/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
