@@ -1,0 +1,46 @@
+site_name: mathforquantum
+repo_url: https://gitlab.kwant-project.org/mathematics-for-quantum-physics/lectures
+repo_name: source
+edit_uri: edit/master/src/
+site_description: |
+  Lecture notes for TN3105 - Mathematics for Quantum Physics
+nav:
+  - Intro: 'index.md'
+  - Complex Numbers: '1_complex_numbers.md'
+  - Coordinates: '2_coordinates.md'
+  - Vector spaces: '3_vector_spaces.md'
+  - Vector spaces in quantum mechanics: '4_vector_spaces_QM.md'
+  - Operators in quantum mechanics: '5_operators_QM.md'
+  - Eigenvectors and eigenvalues: '6_eigenvectors_QM.md'
+  - Differential equations 1: '7_differential_equations_1.md'
+  - Differential equations 2: '8_differential_equations_2.md'
+
+theme:
+  name: material
+  custom_dir: theme
+  palette:
+    primary: 'white'
+    accent: 'indigo'
+
+markdown_extensions:
+  - mdx_math:
+      enable_dollar_delimiter: True
+  - toc:
+      permalink: True
+  - admonition
+  - pymdownx.details
+  - pymdownx.extra
+  - pymdownx.emoji
+  - abbr
+  - footnotes
+  - meta
+
+extra_css:
+  - 'https://use.fontawesome.com/releases/v5.8.1/css/all.css'
+  - 'styles/thebelab.css'
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS_HTML'
+  - 'scripts/thebelab-custom.js'
+  - 'scripts/mathjaxhelper.js'
+  - 'scripts/thebelabhelper.js'
